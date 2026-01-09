@@ -1,0 +1,49 @@
+# Node / JS / Runtime
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+
+
+# Build Output
+dist/
+build/
+.cache/
+.esbuild/
+.vite/
+
+# Environment / Secrets
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+.env.*.local
+
+# Docker Artifacts
+*.pid
+*.pid.lock
+docker-data/
+docker-volume/
+
+# Database / Dumps
+*.sql
+*.dump
+
+# Coverage
+coverage/
+*.lcov
+
+# IDE / Editor
+.vscode/
+.idea/
+*.iml
+*.swp
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Misc
+project-tree.txt
